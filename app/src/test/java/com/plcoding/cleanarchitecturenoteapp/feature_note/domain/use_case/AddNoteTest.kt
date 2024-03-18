@@ -21,7 +21,7 @@ class AddNoteTest{
     @Test
     fun `validate title of Added Note`() = runBlocking{
 
-        val note = Note("","Sub",2.22.toLong(),1)
+        val note = Note("sss","Sub",2.22.toLong(),1)
         addNote(note)
 
         assertThat(repository.getNotes().first()).contains(note)
