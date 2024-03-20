@@ -43,7 +43,8 @@ jobs:
             server_address: smtp.gmail.com
             server_port: 465
             subject: Message from github actions.
-            to: sudhakarkr21@gmail.com
-            from: sudhakarkr21@gmailcom
+            to: sudhakarkr13@gmail.com
+            from: sudhakar
             secure: true
             body: workflow for completed successfully!
+            priority: high
